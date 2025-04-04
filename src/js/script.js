@@ -73,5 +73,31 @@ console.log(texto.indexOf("ão"))
 let info = "Programação de ponta";
 console.log(info.slice(14,20))
 
+// OPEREADORES ARITMÉTICOS
+
+const a = 10;
+const b = 20;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
 
 
+// OPERADORES LÓGICOS
+
+const c = 20;
+const d = 30;
+
+console.log(c > d);
+console.log(c > d && c < 10);
+console.log(c > d || d > c );
+console.log(c == d || d <= c )
+
+// OPERADORES DE COMPARAÇÃO 
+
+const e = 10;
+const f = 30;
+console.log(e == f );
+console.log(e === f);
+console.log(e != f);
