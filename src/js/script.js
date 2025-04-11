@@ -49,7 +49,7 @@ console.log(parseFloat(numString))
 // INT = STRING
 
 let numInt = 123
-console.log( numInt.toString())
+console.log(numInt.toString())
 
 // STRING => INT
 
@@ -71,7 +71,7 @@ console.log(texto.indexOf("ão"))
 // METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
 
 let info = "Programação de ponta";
-console.log(info.slice(14,20))
+console.log(info.slice(14, 20))
 
 // OPEREADORES ARITMÉTICOS
 
@@ -91,14 +91,14 @@ const d = 30;
 
 console.log(c > d);
 console.log(c > d && c < 10);
-console.log(c > d || d > c );
-console.log(c == d || d <= c )
+console.log(c > d || d > c);
+console.log(c == d || d <= c)
 
 // OPERADORES DE COMPARAÇÃO 
 
 const e = 10;
 const f = 30;
-console.log(e == f );
+console.log(e == f);
 console.log(e === f);
 console.log(e != f);
 
