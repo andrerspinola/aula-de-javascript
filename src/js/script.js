@@ -104,3 +104,68 @@ console.log(e != f);
 
 // CONDICIONAL
 
+//if sozinho só traz condição verdadeira
+
+if (true) {
+    console.log("andré lindo")
+}
+let exempl = 1
+if (exempl == 1) {
+    console.log("está correto")
+}
+
+//if/else
+
+let nom = "fiap"
+
+if (nom == "Fiap") {
+    console.log("Nome correto")
+    document.write("Nome certo")
+}
+else {
+    console.log("Nome Errado")
+    document.write("Nome Errado")
+}
+
+//IF encadeado ou Aninhado
+
+let idadi = 17;
+if (idadi <= 14) {
+    console.log("Não pode entrar")
+}
+else if (idadi > 14 && idadi <= 18) {
+    console.log("pode entrar e curtir")
+}
+else if (idadi > 18 && idadi <= 50) {
+    console.log("Perigo seus pais estão na balada")
+}
+else {
+    console.log("Você deve ficar no sofá assistindo")
+}
+
+//swit case
+
+let time = "Corinthians";
+switch(time){
+    case "Corinthians":
+        console.log("Melhor Time")
+        break;
+    case"São Paulo":
+        console.log("É tão ruim que não conseguem em casa")
+        break;
+    case "Palmeiras":
+        console.log("Simplesmente não tem mundial")
+        break;
+    default:
+        console.log("Nenhuma das opções válidas (santos) ")
+}
+
+//Ternario
+
+let valor=100;
+let resultado = valor ==100 ? "Valor Certo" : "Valor Errado";
+console.log(resultado);
+
+let media = 6 ;
+let result = media >= 6 ? "Aprovado" : "Reprovado";
+console.log(result);
